@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(12, 12, 12);
+  padding: 20px 20% 0 20%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+p {
+  font-family: Inter, Arial;
+  color: white;
+}
+
+button {
+  font-family: Inter, Arial;
+  cursor: pointer;
+}

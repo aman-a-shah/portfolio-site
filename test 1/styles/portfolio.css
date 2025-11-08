@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(12, 12, 12);
+}
+
+p {
+  font-family: Inter, Arial;
+  color: white;
+}
+
+
+button {
+  font-family: Inter, Arial;
+  cursor: pointer;
+}
+
+.sidebar {
+  width: flex; 
+  flex-direction: row;
+
+  position: fixed; /* fix header */
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px;
+
+  z-index: 1; /* depth buffer */
+
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  padding: 10px 0 0 30px;
+}
+
+.sidebar-button {
+  width: 100%; /* Change from 100px to 100% */
+  padding: 8px 10px 8px 10px;
+  margin: 10px 0px 0px 0px;
+  
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  
+  font-family: Inter, Arial;
+  font-size: 12px;
+  font-weight: 300;
+  
+  text-align: left; /* Ensure text is left-aligned */
+}
+
+.name-text {
+  font-size: 20px;
+  font-weight: bold;
+
+  padding: 8px 10px 8px 10px;
+  margin: 10px 0px 0px 0px;
+}
